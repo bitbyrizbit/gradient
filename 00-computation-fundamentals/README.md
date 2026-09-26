@@ -1,0 +1,3 @@
+# Why This Comes First
+
+I start here because almost every abstraction I will build on later sits on top of this layer. NumPy's speed, memory behavior, neural network training, GPU acceleration, and even many of the design decisions behind modern ML systems become far less mysterious once I understand what is happening underneath them. From an AI/ML engineering perspective, this is the layer that turns implementation details into cause and effect. I am not learning these foundations to memorize how systems behave; I am learning them so that when an abstraction becomes slow, expensive, opaque, or unexpectedly constrained, I can reason about what is actually happening beneath it.
